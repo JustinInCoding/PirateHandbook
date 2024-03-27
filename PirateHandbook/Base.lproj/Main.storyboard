@@ -162,6 +162,53 @@
             </objects>
             <point key="canvasLocation" x="1894.8837209302326" y="65.665236051502148"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="vbG-My-T5O">
+            <objects>
+                <viewController id="Eoa-Zn-o8n" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wZK-CF-lt5">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lots of text in Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMH-Sa-0GV">
+                                <rect key="frame" x="106.99999999999999" y="181" width="148.66666666666663" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oca-c3-30q">
+                                <rect key="frame" x="177.66666666666666" y="863" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="128" translatesAutoresizingMaskIntoConstraints="NO" id="1GG-xr-s5q">
+                                <rect key="frame" x="95" y="402" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFC-Bk-ltU">
+                                <rect key="frame" x="177.66666666666666" y="320" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kre-w7-ObE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aMH-Sa-0GV" firstAttribute="top" secondItem="kre-w7-ObE" secondAttribute="top" constant="122" id="5zf-Lb-cMN"/>
+                            <constraint firstItem="oca-c3-30q" firstAttribute="centerX" secondItem="wZK-CF-lt5" secondAttribute="centerX" id="Cte-qG-4jW"/>
+                            <constraint firstItem="DFC-Bk-ltU" firstAttribute="centerX" secondItem="1GG-xr-s5q" secondAttribute="centerX" id="HNa-61-eGy"/>
+                            <constraint firstItem="1GG-xr-s5q" firstAttribute="centerY" secondItem="wZK-CF-lt5" secondAttribute="centerY" id="V8L-qS-Eno"/>
+                            <constraint firstItem="kre-w7-ObE" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aMH-Sa-0GV" secondAttribute="trailing" symbolic="YES" id="YuK-kc-ck3"/>
+                            <constraint firstItem="1GG-xr-s5q" firstAttribute="top" secondItem="DFC-Bk-ltU" secondAttribute="bottom" constant="47" id="hOH-tr-30g"/>
+                            <constraint firstItem="aMH-Sa-0GV" firstAttribute="leading" secondItem="kre-w7-ObE" secondAttribute="leading" constant="107" id="olf-fv-9sb"/>
+                            <constraint firstItem="oca-c3-30q" firstAttribute="bottom" secondItem="kre-w7-ObE" secondAttribute="bottom" id="pjG-sg-O9m"/>
+                            <constraint firstItem="1GG-xr-s5q" firstAttribute="centerX" secondItem="wZK-CF-lt5" secondAttribute="centerX" id="wVh-NK-FLC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZPQ-CA-eiH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2684.6511627906975" y="77.896995708154506"/>
+        </scene>
     </scenes>
     <resources>
         <image name="background" width="1366" height="1366"/>
