@@ -22,10 +22,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ty7-Rl-di0">
-                                <rect key="frame" x="108" y="396" width="214" height="166"/>
+                                <rect key="frame" x="20" y="396" width="390" height="166"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHa-Ra-a0I">
-                                        <rect key="frame" x="0.0" y="0.0" width="214" height="51"/>
+                                        <rect key="frame" x="1" y="0.0" width="388" height="51"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="H0B-h3-mbD"/>
                                         </constraints>
@@ -37,7 +37,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1WL-qN-w7F">
-                                        <rect key="frame" x="0.0" y="58" width="214" height="50"/>
+                                        <rect key="frame" x="0.0" y="58" width="390" height="50"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
                                         <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -45,11 +45,11 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="wlD-B0-MIY">
-                                        <rect key="frame" x="0.0" y="116" width="214" height="51"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="wlD-B0-MIY">
+                                        <rect key="frame" x="1" y="116" width="388" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zi-yN-VHh">
-                                                <rect key="frame" x="0.0" y="0.0" width="136" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="189" height="50"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
                                                 <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -58,7 +58,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k3l-xv-9Hy">
-                                                <rect key="frame" x="149" y="0.0" width="65" height="50"/>
+                                                <rect key="frame" x="199" y="0.0" width="189" height="48"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
                                                 <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -85,7 +85,8 @@
                         <viewLayoutGuide key="safeArea" id="1vX-mu-xp7"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ty7-Rl-di0" firstAttribute="centerX" secondItem="1vX-mu-xp7" secondAttribute="centerX" id="Coo-jE-pk4"/>
+                            <constraint firstItem="ty7-Rl-di0" firstAttribute="leading" secondItem="L1R-nN-lSh" secondAttribute="leadingMargin" id="2PB-8A-98b"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ty7-Rl-di0" secondAttribute="trailing" id="KD2-7o-baQ"/>
                             <constraint firstItem="1vX-mu-xp7" firstAttribute="bottom" secondItem="kz3-1s-BXS" secondAttribute="bottom" constant="8" id="LWM-QT-iaO"/>
                             <constraint firstItem="kz3-1s-BXS" firstAttribute="trailing" secondItem="L1R-nN-lSh" secondAttribute="trailingMargin" id="m6U-49-fGd"/>
                             <constraint firstItem="kz3-1s-BXS" firstAttribute="leading" secondItem="L1R-nN-lSh" secondAttribute="leadingMargin" id="rw4-Ga-vHy"/>
